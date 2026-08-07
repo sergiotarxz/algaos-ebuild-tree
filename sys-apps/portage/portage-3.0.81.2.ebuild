@@ -107,6 +107,17 @@ src_prepare() {
 			-e "s|^\(sync-uri = \).*|\\1rsync://rsync.prefix.bitzolder.nl/gentoo-portage-prefix|" \
 			-i cnf/repos.conf || die "sed failed"
 	fi
+
+	cat > cnf/repos.conf <<'EOF'
+[DEFAULT]
+main-repo = algaos
+
+[algaos]
+location = /var/db/repos/algaos
+sync-type = git
+sync-uri = https://github.com/sergiotarxz/algaos-ebuild-tree.git
+auto-sync = yes
+EOF
 }
 
 src_configure() {
