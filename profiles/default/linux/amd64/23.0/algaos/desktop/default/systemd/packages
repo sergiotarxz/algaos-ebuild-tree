@@ -1,2 +1,4 @@
+llvm-core/clang
 *app-editors/vim
-*gnome-base/gnome
+*gnome-base/gnome-light
+sys-kernel/gentoo-kernel

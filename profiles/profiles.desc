@@ -62,6 +62,7 @@ amd64		default/linux/amd64/23.0/split-usr/no-multilib/prefix/kernel-3.2+	exp
 amd64		default/linux/amd64/23.0/split-usr/llvm				exp
 amd64		default/linux/amd64/23.0/split-usr/hardened			stable
 amd64		default/linux/amd64/23.0/split-usr/hardened/selinux		stable
+amd64       default/linux/amd64/23.0/algaos/systemd                 stable
 amd64       default/linux/amd64/23.0/algaos/desktop/default/systemd stable
 
 
