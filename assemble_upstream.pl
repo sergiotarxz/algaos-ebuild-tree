@@ -8,7 +8,7 @@ use File::Basename qw/dirname/;
 chdir dirname($0);
 
 system qw{git checkout upstream/master sys-apps/portage/};
-for my $file ( glob 'sys-apps/portage/*.ebuild' ) {
+for my $file ( glob('sys-apps/portage/*.ebuild'), glob('www-client/firefox/*.ebuild')) {
     open my $read_fh, '<', $file or die "Cannot open $file: $!";
     my $final_contents = '';
     my ( $found_prefix_use, $found_end_prefix_use );
@@ -25,9 +25,6 @@ for my $file ( glob 'sys-apps/portage/*.ebuild' ) {
     }
     if ( system qw{sudo ebuild}, $file, 'manifest' ) {
         die "Manifest for $file failed";
-    }
-    if ( system qw{sudo ebuild}, $file, 'compile' ) {
-        die "Compile for $file failed";
     }
 }
 

@@ -1,1 +1,7 @@
 net-libs/ngtcp2 gnutls
+media-libs/libvpx postproc
+sys-kernel/installkernel dracut
+gnome-extra/gnome-software flatpak
+sys-libs/zlib minizip
+sys-libs/glibc compile-locales
+

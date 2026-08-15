@@ -1,5 +1,513 @@
 {
   "policies": {
-    "DisableAppUpdate": true
+    "DisableAppUpdate": true,
+    "SearchSuggestEnabled": false,
+    "FirefoxSuggest": {
+      "WebSuggestions": false,
+      "SponsoredSuggestions": false,
+      "ImproveSuggest": false
+    },
+    "FirefoxHome": {
+      "Search": false,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "Stories": false,
+      "SponsoredPocket": false,
+      "SponsoredStories": false,
+      "Snippets": false
+    },
+    "UserMessaging": {
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "UrlbarInterventions": false
+    },
+    "RequestedLocales": [
+      "es"
+    ],
+    "Preferences": {
+      "intl.accept_languages": {
+        "Value": "es",
+        "Status": "user"
+      },
+      "Homepage": {
+        "URL": "about:blank",
+        "StartPage": "homepage"
+      }
+    },
+    "DisableTelemetry": true,
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      },
+      "jid1-MnnxcxisBPnSXQ@jetpack": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/privacy-badger17/latest.xpi"
+      },
+      "{73a6fe31-595d-460b-a920-fcc0f8843232}": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/noscript/latest.xpi"
+      },
+      "langpack-ach@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ach-language-pack/latest.xpi"
+      },
+      "langpack-af@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/afrikaans-language-pack/latest.xpi"
+      },
+      "langpack-an@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/aragonese-language-pack/latest.xpi"
+      },
+      "langpack-ar@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/العربية-language-pack/latest.xpi"
+      },
+      "langpack-ast@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/asturian-language-pack/latest.xpi"
+      },
+      "langpack-az@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/azərbaycanca-language-pack/latest.xpi"
+      },
+      "langpack-be@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/belarusian-language-pack/latest.xpi"
+      },
+      "langpack-bg@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bulgarian-language-pack/latest.xpi"
+      },
+      "langpack-bn@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bangla-language-pack/latest.xpi"
+      },
+      "langpack-bo@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/tibetan-language-pack/latest.xpi"
+      },
+      "langpack-bqi@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bakhtiari-language-pack/latest.xpi"
+      },
+      "langpack-br@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/breton-language-pack/latest.xpi"
+      },
+      "langpack-brx@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bodo-language-pack/latest.xpi"
+      },
+      "langpack-bs@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/bosnian-language-pack/latest.xpi"
+      },
+      "langpack-ca@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/catalan-language-pack/latest.xpi"
+      },
+      "langpack-ca-valencia@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/català-valencià-language-pack/latest.xpi"
+      },
+      "langpack-cak@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/kaqchikel-language-pack/latest.xpi"
+      },
+      "langpack-ckb@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/central-kurdish-language-pack/latest.xpi"
+      },
+      "langpack-cs@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/czech-language-pack/latest.xpi"
+      },
+      "langpack-cy@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/welsh-language-pack/latest.xpi"
+      },
+      "langpack-da@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/danish-language-pack/latest.xpi"
+      },
+      "langpack-de@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/german-language-pack/latest.xpi"
+      },
+      "langpack-dsb@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/lower-sorbian-language-pack/latest.xpi"
+      },
+      "langpack-el@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/greek-language-pack/latest.xpi"
+      },
+      "langpack-en-CA@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/english-canada-language-pack/latest.xpi"
+      },
+      "langpack-en-GB@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/british-english-language-pack/latest.xpi"
+      },
+      "langpack-eo@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/esperanto-language-pack/latest.xpi"
+      },
+      "langpack-es-AR@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/español-ar-language-pack/latest.xpi"
+      },
+      "langpack-es-CL@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/español-cl-language-pack/latest.xpi"
+      },
+      "langpack-es-ES@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/español-españa-language-pac/latest.xpi"
+      },
+      "langpack-es-MX@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/español-mx-language-pack/latest.xpi"
+      },
+      "langpack-et@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/estonian-language-pack/latest.xpi"
+      },
+      "langpack-eu@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/basque-language-pack/latest.xpi"
+      },
+      "langpack-fa@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/persian-language-pack/latest.xpi"
+      },
+      "langpack-ff@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/fulah-language-pack/latest.xpi"
+      },
+      "langpack-fi@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/finnish-language-pack/latest.xpi"
+      },
+      "langpack-fr@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/french-language-pack/latest.xpi"
+      },
+      "langpack-fur@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/friulian-language-pack/latest.xpi"
+      },
+      "langpack-fy-NL@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/western-frisian-language-pack/latest.xpi"
+      },
+      "langpack-ga-IE@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/irish-language-pack/latest.xpi"
+      },
+      "langpack-gd@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/scottish-gaelic-language-pack/latest.xpi"
+      },
+      "langpack-gl@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/galician-language-pack/latest.xpi"
+      },
+      "langpack-gn@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/guarani-language-pack/latest.xpi"
+      },
+      "langpack-gu-IN@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/gujarati-language-pack/latest.xpi"
+      },
+      "langpack-he@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/hebrew-language-pack/latest.xpi"
+      },
+      "langpack-hi-IN@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/hindi-language-pack/latest.xpi"
+      },
+      "langpack-hr@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/croatian-language-pack/latest.xpi"
+      },
+      "langpack-hsb@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/upper-sorbian-language-pack/latest.xpi"
+      },
+      "langpack-hu@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/hungarian-language-pack/latest.xpi"
+      },
+      "langpack-hy-AM@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/armenian-language-pack/latest.xpi"
+      },
+      "langpack-id@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/indonesian-language-pack/latest.xpi"
+      },
+      "langpack-is@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/icelandic-language-pack/latest.xpi"
+      },
+      "langpack-it@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/italian-language-pack/latest.xpi"
+      },
+      "langpack-ja@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/japanese-language-pack/latest.xpi"
+      },
+      "langpack-ka@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/georgian-language-pack/latest.xpi"
+      },
+      "langpack-kab@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/kabyle-language-pack/latest.xpi"
+      },
+      "langpack-kk@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/kazakh-language-pack/latest.xpi"
+      },
+      "langpack-km@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/khmer-language-pack/latest.xpi"
+      },
+      "langpack-kn@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/kannada-language-pack/latest.xpi"
+      },
+      "langpack-ko@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/korean-language-pack/latest.xpi"
+      },
+      "langpack-lij@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ligurian-language-pack/latest.xpi"
+      },
+      "langpack-lo@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/lao-language-pack/latest.xpi"
+      },
+      "langpack-lt@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/lithuanian-language-pack/latest.xpi"
+      },
+      "langpack-ltg@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/latgalian-language-pack/latest.xpi"
+      },
+      "langpack-lv@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/latvian-language-pack/latest.xpi"
+      },
+      "langpack-meh@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/mixteco-language-pack/latest.xpi"
+      },
+      "langpack-mk@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/macedonian-language-pack/latest.xpi"
+      },
+      "langpack-ml@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/malayalam-language-pack/latest.xpi"
+      },
+      "langpack-mr@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/marathi-language-pack/latest.xpi"
+      },
+      "langpack-ms@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/malay-language-pack/latest.xpi"
+      },
+      "langpack-my@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/burmese-language-pack/latest.xpi"
+      },
+      "langpack-nb-NO@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/norwegian-bokmål-language-pack/latest.xpi"
+      },
+      "langpack-ne-NP@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/nepali-language-pack/latest.xpi"
+      },
+      "langpack-nl@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/dutch-language-pack/latest.xpi"
+      },
+      "langpack-nn-NO@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/norwegian-nynorsk-language-pack/latest.xpi"
+      },
+      "langpack-oc@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/occitan-language-pack/latest.xpi"
+      },
+      "langpack-pa-IN@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/punjabi-language-pack/latest.xpi"
+      },
+      "langpack-pl@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/polish-language-pack/latest.xpi"
+      },
+      "langpack-pt-BR@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/português-brasileiro-language-pack/latest.xpi"
+      },
+      "langpack-pt-PT@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/português-europeu-language-pack/latest.xpi"
+      },
+      "langpack-rm@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/romansh-language-pack/latest.xpi"
+      },
+      "langpack-ro@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/romanian-language-pack/latest.xpi"
+      },
+      "langpack-ru@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/russian-ru-language-pack/latest.xpi"
+      },
+      "langpack-sat@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/santali-language-pack/latest.xpi"
+      },
+      "langpack-sc@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sardinian-language-pack/latest.xpi"
+      },
+      "langpack-scn@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sicilian-language-pack/latest.xpi"
+      },
+      "langpack-sco@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/scots-language-pack/latest.xpi"
+      },
+      "langpack-si@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/sinhala-language-pack/latest.xpi"
+      },
+      "langpack-sk@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/slovak-language-pack/latest.xpi"
+      },
+      "langpack-skr@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/saraiki-language-pack/latest.xpi"
+      },
+      "langpack-sl@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/slovenian-language-pack/latest.xpi"
+      },
+      "langpack-son@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/songhai-language-pack/latest.xpi"
+      },
+      "langpack-sq@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/albanian-language-pack/latest.xpi"
+      },
+      "langpack-sr@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/serbian-language-pack/latest.xpi"
+      },
+      "langpack-sv-SE@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/swedish-language-pack/latest.xpi"
+      },
+      "langpack-szl@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/silesian-language-pack/latest.xpi"
+      },
+      "langpack-ta@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/tamil-language-pack/latest.xpi"
+      },
+      "langpack-te@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/telugu-language-pack/latest.xpi"
+      },
+      "langpack-tg@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/tajik-language-pack/latest.xpi"
+      },
+      "langpack-th@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/thai-language-pack/latest.xpi"
+      },
+      "langpack-tl@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/tagalog-language-pack/latest.xpi"
+      },
+      "langpack-tr@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/turkish-language-pack/latest.xpi"
+      },
+      "langpack-trs@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/torwali-language-pack/latest.xpi"
+      },
+      "langpack-uk@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ukrainian-language-pack/latest.xpi"
+      },
+      "langpack-ur@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/urdu-language-pack/latest.xpi"
+      },
+      "langpack-uz@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/uzbek-language-pack/latest.xpi"
+      },
+      "langpack-vi@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/vietnamese-language-pack/latest.xpi"
+      },
+      "langpack-wo@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/wolof-language-pack/latest.xpi"
+      },
+      "langpack-xh@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/xhosa-language-pack/latest.xpi"
+      },
+      "langpack-zh-CN@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/chinese-simplified-language-pack/latest.xpi"
+      },
+      "langpack-zh-TW@firefox.mozilla.org": {
+        "installation_mode": "force_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/chinese-traditional-language-pack/latest.xpi"
+      }
+    },
+    "SearchEngines": {
+      "Default": "DuckDuckGo"
+    },
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Category": "strict",
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "EmailTracking": true,
+      "SuspectedFingerprinting": true,
+      "BaselineExceptions": true,
+      "ConvenienceExceptions": true
+    },
+    "HttpsOnlyMode": "enabled"
   }
 }
