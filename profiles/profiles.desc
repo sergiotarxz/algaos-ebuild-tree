@@ -64,6 +64,7 @@ amd64		default/linux/amd64/23.0/split-usr/hardened			stable
 amd64		default/linux/amd64/23.0/split-usr/hardened/selinux		stable
 amd64       default/linux/amd64/23.0/algaos/systemd                 stable
 amd64       default/linux/amd64/23.0/algaos/desktop/default/systemd stable
+amd64       default/linux/amd64/23.0/algaos/desktop/default/systemd/cdrom stable
 
 
 # AMD64 Profiles
