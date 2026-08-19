@@ -11,20 +11,23 @@ SRC_URI=""
 
 DESCRIPTION="AlgaOS Installer"
 
-LICENSE="AGPLv3"
+LICENSE="AGPL-3+"
 SLOT="0"
 
 RDEPEND="
 	dev-lang/perl
-	dev-perl/ExtUtils-CBuilder
 	dev-perl/Crypt-URandom
 	dev-perl/Moo
 	dev-perl/PBKDF2-Tiny
 	dev-perl/JSON
-	dev-perl/Module-Build
 	gui-libs/gtk:4
 "
+
 DEPEND="${RDEPEND}"
+BDEPEND="
+	dev-perl/Module-Build
+"
+
 
 src_install() {
 	perl-module_src_install
