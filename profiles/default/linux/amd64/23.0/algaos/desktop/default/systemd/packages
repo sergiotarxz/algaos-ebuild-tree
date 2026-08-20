@@ -22,3 +22,5 @@
 *sys-boot/grub
 *sys-fs/squashfs-tools
 *app-admin/sudo
+*sys-boot/plymouth
+*sys-boot/plymouth-theme-colorful-loop
