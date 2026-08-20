@@ -35,5 +35,13 @@ src_install() {
 	domenu com.algaos.Installer.desktop
 	insinto /etc/xdg/autostart
 	doins com.algaos.Installer.desktop
-	newicon -s scalable algaos-installer-logo.svg algaos-installer-logo.svg
+	newicon -s scalable com.algaos.Installer.svg com.algaos.Installer.svg
+}
+
+pkg_postinst() {
+	xdg_icon_cache_update
+}
+
+pkg_postrm() {
+	xdg_icon_cache_update
 }
