@@ -4,7 +4,7 @@
 EAPI=8
 
 DIST_AUTHOR="sergiotarxz"
-inherit perl-module desktop git-r3
+inherit perl-module desktop git-r3 xdg-utils
 HOMEPAGE="https://github.com/sergiotarxz/algaos-installer"
 EGIT_REPO_URI="https://github.com/sergiotarxz/algaos-installer"
 SRC_URI=""
