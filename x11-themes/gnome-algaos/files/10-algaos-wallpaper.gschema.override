@@ -1,3 +1,9 @@
 [org.gnome.desktop.background]
-picture-uri='file:///usr/share/backgrounds/my-wallpaper/light-complex.png'
-picture-uri-dark='file:///usr/share/backgrounds/my-wallpaper/dark-complex.png'
+picture-uri='file:///usr/share/backgrounds/algaos/light-complex.png'
+picture-uri-dark='file:///usr/share/backgrounds/algaos/dark-complex.png'
+
+[org.gnome.settings-daemon.plugins.housekeeping]
+donation-reminder-enabled=false
+
+[org.gnome.login-screen]
+logo='/usr/share/pixmaps/algaos-gdm-logo.png'

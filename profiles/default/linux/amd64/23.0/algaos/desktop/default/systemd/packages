@@ -25,3 +25,7 @@
 *sys-boot/plymouth
 *sys-boot/plymouth-theme-colorful-loop
 *x11-themes/gnome-algaos
+*media-gfx/inkscape
+*sys-kernel/linux-firmware
+*media-gfx/eog
+*app-text/papers

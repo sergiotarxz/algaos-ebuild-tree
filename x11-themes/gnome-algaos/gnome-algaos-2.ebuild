@@ -30,7 +30,7 @@ src_install() {
 	newins "${FILESDIR}/10-algaos-wallpaper.gschema.override" \
 		10_algaos-wallpaper.gschema.override
 	insinto /usr/share/pixmaps
-	dois "${FILESDIR}/algaos-gdm-logo.png"
+	doins "${FILESDIR}/algaos-gdm-logo.png"
 }
 
 pkg_postinst() {

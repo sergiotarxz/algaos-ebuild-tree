@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>AlgaOS</name>
+    <filename>/usr/share/backgrounds/algaos/light-complex.png</filename>
+    <filename-dark>/usr/share/backgrounds/algaos/dark-complex.png</filename-dark>
+    <options>zoom</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#FFFFFF</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
