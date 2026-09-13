@@ -8,7 +8,7 @@ inherit perl-module desktop git-r3 xdg-utils
 
 HOMEPAGE="https://github.com/sergiotarxz/algaos-update-grub"
 EGIT_REPO_URI="https://github.com/sergiotarxz/algaos-update-grub"
-EGIT_COMMIT="v${PV}"
+EGIT_COMMIT="v${PV/_rc/-rc}"
 SRC_URI=""
 
 DESCRIPTION="AlgaOS update grub utility"
