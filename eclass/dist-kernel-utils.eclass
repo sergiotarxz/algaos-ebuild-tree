@@ -126,7 +126,8 @@ dist-kernel_install_kernel() {
 		ebegin "Installing the kernel via installkernel"
 		# note: .config is taken relatively to System.map;
 		# initrd relatively to bzImage
-		ARCH=$(tc-arch-kernel) installkernel "${installkernel_args[@]}" || break
+		cp "$image" "/$dir/kernel-$version"
+		dracut --kver "$version" -f
 		eend ${?} || die -n "Installing the kernel failed"
 
 		success=1
