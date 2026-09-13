@@ -9,6 +9,7 @@ HOMEPAGE="https://github.com/sergiotarxz/algaos-installer"
 EGIT_REPO_URI="https://github.com/sergiotarxz/algaos-installer"
 EGIT_COMMIT="v${PV/_rc/-rc}"
 SRC_URI=""
+KEYWORDS="amd64"
 
 DESCRIPTION="AlgaOS Installer"
 

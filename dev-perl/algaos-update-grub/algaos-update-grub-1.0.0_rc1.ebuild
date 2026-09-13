@@ -10,6 +10,7 @@ HOMEPAGE="https://github.com/sergiotarxz/algaos-update-grub"
 EGIT_REPO_URI="https://github.com/sergiotarxz/algaos-update-grub"
 EGIT_COMMIT="v${PV/_rc/-rc}"
 SRC_URI=""
+KEYWORDS="amd64"
 
 DESCRIPTION="AlgaOS update grub utility"
 
