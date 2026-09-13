@@ -68,6 +68,7 @@ RESTRICT+="
 "
 
 _IDEPEND_BASE="
+	>=dev-perl/algaos-update-grub-1.0.0-r2
 	!initramfs? (
 		>=sys-kernel/installkernel-14
 	)
@@ -679,6 +680,7 @@ kernel-install_install_all() {
 
 	dist-kernel_install_kernel "${module_ver}" "${kernel_dir}/${image_path}" \
 		"${kernel_dir}/System.map"
+	update-grub
 }
 
 # @FUNCTION: kernel-install_pkg_postinst
