@@ -68,7 +68,7 @@ RESTRICT+="
 "
 
 _IDEPEND_BASE="
-	>=dev-perl/algaos-update-grub-1.0.0-r2
+	>=dev-perl/algaos-update-grub-1.0.0_r2
 	!initramfs? (
 		>=sys-kernel/installkernel-14
 	)
