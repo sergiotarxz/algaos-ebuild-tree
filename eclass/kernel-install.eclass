@@ -69,6 +69,7 @@ RESTRICT+="
 
 _IDEPEND_BASE="
 	>=dev-perl/algaos-update-grub-1.0.0_rc2
+	>=app-admin/eclean-kernel-2.99.10
 	!initramfs? (
 		>=sys-kernel/installkernel-14
 	)

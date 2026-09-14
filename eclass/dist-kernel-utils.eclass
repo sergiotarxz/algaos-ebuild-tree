@@ -128,6 +128,7 @@ dist-kernel_install_kernel() {
 		# initrd relatively to bzImage
 		cp "$image" "/$dir/kernel-$version"
 		dracut --kver "$version" -f
+		eclean-kernel -n 4
 		eend ${?} || die -n "Installing the kernel failed"
 
 		success=1
