@@ -612,8 +612,6 @@ kernel-build_src_install() {
 
 			# Tries to update ld cache
 			addpredict /etc/ld.so.cache~
-			dracut "${dracut_args[@]}" "${image%/*}/initrd" ||
-				die "Failed to generate initramfs"
 
 			# Note, we cannot use an associative array here because those are
 			# not ordered.

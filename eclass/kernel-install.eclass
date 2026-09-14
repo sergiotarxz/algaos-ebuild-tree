@@ -367,18 +367,6 @@ kernel-install_test() {
 	> "${T}"/empty-file || die
 	mkdir -p "${T}"/empty-directory || die
 
-	dracut \
-		--conf "${T}"/empty-file \
-		--confdir "${T}"/empty-directory \
-		--no-hostonly \
-		--kmoddir "${modules}" \
-		--force-add "qemu" \
-		--omit "${omit_mods[*]}" \
-		--nostrip \
-		--no-early-microcode \
-		--compress="$(dist-kernel_get_compressor "${config}")" \
-		"${T}/initrd" "${version}" || die
-
 	kernel-install_create_qemu_image "${T}/fs.img"
 
 	cd "${T}" || die
