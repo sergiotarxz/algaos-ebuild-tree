@@ -5,3 +5,4 @@ gnome-extra/gnome-software flatpak
 sys-libs/zlib minizip
 sys-libs/glibc compile-locales
 sys-libs/minizip-ng compat
+net-misc/freerdp winpr-tools
