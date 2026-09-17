@@ -32,3 +32,6 @@
 *dev-perl/algaos-update-grub
 *dev-perl/algaos-updater
 *app-portage/gentoolkit
+*dev-perl/App-perlbrew
+*app-misc/screen
+*gui-apps/deskflow
