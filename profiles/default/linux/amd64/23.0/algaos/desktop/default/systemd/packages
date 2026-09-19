@@ -37,6 +37,7 @@
 *gui-apps/deskflow
 *net-p2p/syncthing
 *app-editors/gnome-text-editor
+*gnome-extra/gnome-calendar
 *gui-apps/wl-clipboard
 *sys-power/power-profiles-daemon
 *media-gfx/imagemagick
