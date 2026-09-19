@@ -6,3 +6,4 @@ sys-libs/zlib minizip
 sys-libs/glibc compile-locales
 sys-libs/minizip-ng compat
 net-misc/freerdp winpr-tools
+app-accessibility/brltty python
