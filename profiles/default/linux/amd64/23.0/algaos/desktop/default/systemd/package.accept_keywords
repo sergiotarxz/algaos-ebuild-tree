@@ -1,2 +1,7 @@
 gnome-extra/gnome-software ~amd64
 dev-perl/PBKDF2-Tiny ~amd64
+gnome-base/* ~amd64
+gnome-extra/* ~amd64
+x11-wm/mutter ~amd64
+x11-libs/gtk+ ~amd64
+x11-libs/libadwaita ~amd64
