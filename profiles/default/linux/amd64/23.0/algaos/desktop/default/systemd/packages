@@ -43,3 +43,6 @@
 *media-gfx/imagemagick
 *net-misc/gnome-remote-desktop
 *app-accessibility/orca
+*app-containers/podman
+*app-containers/docker
+*app-containers/docker-cli
