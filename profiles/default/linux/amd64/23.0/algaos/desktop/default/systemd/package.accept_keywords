@@ -97,3 +97,4 @@ x11-wm/mutter ~amd64
 x11-libs/gtk+ ~amd64
 gui-libs/gtk ~amd64
 gui-libs/libadwaita ~amd64
+net-libs/gnome-online-accounts ~amd64
