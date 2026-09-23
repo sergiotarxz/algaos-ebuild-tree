@@ -46,3 +46,4 @@
 *app-containers/podman
 *app-containers/docker
 *app-containers/docker-cli
+*app-crypt/seahorse
